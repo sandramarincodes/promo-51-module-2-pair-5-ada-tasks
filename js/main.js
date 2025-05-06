@@ -14,4 +14,7 @@ const tasks = [
 for (const task of tasks) {
   // pintar la tarea en la lista
   lista.innerHTML += `<li>${task.name}</li>`;
+  if (task.completed === true) {
+    lista.innerHTML += `<li>${task.name.classList.add("completed")}</li>`; //pendiente preguntar Nuria
+  }
 }
