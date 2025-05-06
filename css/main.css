@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: #099d8d;
+  color: white;
+  padding: 52px;
+}
+
+.input-block {
+  display: flex;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+}
