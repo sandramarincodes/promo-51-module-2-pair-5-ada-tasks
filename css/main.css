@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 header {
@@ -21,17 +23,81 @@ header {
 .input-block {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+  gap: 10%;
 }
-
 .left-block {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 200px;
-  height: 278px;
+  width: 250px;
+  height: 378px;
+  border-radius: 5%;
+  
+ 
+}
+.right-block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5%;
+  flex-direction: row;
+  background-color: white;
+  width: 500px;
+  height: 378px;
+
 }
 
 .completed {
   text-decoration: line-through;
 }
 
+.input-left {
+  padding-top: 15px;
+  margin-top: 20px;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  border: #93a09f 1px solid;
+  border-radius: 5%;
+  border: #93a09f 1px solid;
+  border-radius: 5%;
+  font-size: 18px;
+ 
+}
+.left-block-btn{
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  font-size: 18px;
+  color: white;
+  background-color:#17c0af;
+  border-radius: 5%;
+  border: none;
+}
+.input-right {
+  width: 375px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  border: #93a09f 1px solid;
+  border-radius: 5%;
+  border: #93a09f 1px solid;
+  border-radius: 5%;
+  font-size: 18px;
+}
+.right-block-btn{
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  background-color:#17c0af;
+  border-radius: 5%;
+  border: none;
+}
+.input-btn{
+  display: flex;
+  flex-direction: row;
+ 
+}
