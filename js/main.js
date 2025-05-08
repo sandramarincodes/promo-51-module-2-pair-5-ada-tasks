@@ -11,10 +11,15 @@ const tasks = [
   },
 ];
 
+
 for (const task of tasks) {
   // pintar la tarea en la lista
-  lista.innerHTML += `<li>${task.name}</li>`;
+  //lista.innerHTML += `<li>${task.name}</li>`;//este solo duplica la lista sin tachar
   if (task.completed === true) {
-    lista.innerHTML += `<li>${task.name.classList.add("completed")}</li>`; //pendiente preguntar Nuria
+    //lista.innerHTML += `<li>${task.name.classList.add("completed")}</li>`; //pendiente preguntar Nuria classList no se usa en strings
+    lista.innerHTML += `<li class="completed">${task.name}</li>`;
+  } else{
+    lista.innerHTML += `<li>${task.name}</li>`;
   }
 }
+

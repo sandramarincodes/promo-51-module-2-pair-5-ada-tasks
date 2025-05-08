@@ -71,10 +71,10 @@ header {
   border: none;
 }
 .input-right {
-  width: 375px;
+  width: 475px;
   height: 50px;
   margin-bottom: 20px;
-  margin-left: 5%;
+
   border-radius: 5%;
   border: #93a09f 1px solid;
   border-radius: 5%;
@@ -100,4 +100,7 @@ li {
   padding: 10px;
   border: #93a09f 1px solid;
   border-radius: 5px;
+}
+.completed {
+  text-decoration: line-through;
 }
