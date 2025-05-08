@@ -34,7 +34,7 @@ const handleClickList = (event) => {
   if (!taskId) return; // Si no ha pulsado en el checkbox, no queremos hacer nada y salimos de la función
 
   const clickedTask = tasks.find((task) => task.id === taskId); // Busca la tarea que tenga el id `taskId` en el array `tasks`
-  task.completed = !clickedTask.completed; // task.completed = // Una vez que has obtenido la tarea, actualiza la propiedad `completed`
+  clickedTask.completed = !clickedTask.completed; // pendiente Nuria //        // task.completed = // Una vez que has obtenido la tarea, actualiza la propiedad `completed`
   pintTasks(); // Pinta de nuevo las tareas en el html
 };
 
