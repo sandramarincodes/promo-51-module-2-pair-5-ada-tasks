@@ -33,19 +33,14 @@ header {
   width: 250px;
   height: 378px;
   border-radius: 5%;
-  
- 
 }
-.right-block {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  border-radius: 5%;
-  flex-direction: row;
-  background-color: white;
-  width: 500px;
-  height: 378px;
 
+.right-block {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  font-family: sans-serif;
 }
 
 .completed {
@@ -64,15 +59,14 @@ header {
   border: #93a09f 1px solid;
   border-radius: 5%;
   font-size: 18px;
- 
 }
-.left-block-btn{
+.left-block-btn {
   width: 80%;
   height: 50px;
   margin-left: 10%;
   font-size: 18px;
   color: white;
-  background-color:#17c0af;
+  background-color: #17c0af;
   border-radius: 5%;
   border: none;
 }
@@ -81,23 +75,29 @@ header {
   height: 50px;
   margin-bottom: 20px;
   margin-left: 5%;
-  border: #93a09f 1px solid;
   border-radius: 5%;
   border: #93a09f 1px solid;
   border-radius: 5%;
   font-size: 18px;
 }
-.right-block-btn{
+.right-block-btn {
   width: 100px;
   height: 50px;
   font-size: 18px;
   color: white;
-  background-color:#17c0af;
+  background-color: #17c0af;
   border-radius: 5%;
   border: none;
 }
-.input-btn{
+.input-btn {
   display: flex;
   flex-direction: row;
- 
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: #93a09f 1px solid;
+  border-radius: 5px;
 }
