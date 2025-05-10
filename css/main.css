@@ -26,6 +26,7 @@ header {
   margin-top: 5%;
   gap: 10%;
 }
+
 .left-block {
   display: flex;
   flex-direction: column;
@@ -60,6 +61,7 @@ header {
   border-radius: 5%;
   font-size: 18px;
 }
+
 .left-block-btn {
   width: 80%;
   height: 50px;
@@ -70,6 +72,7 @@ header {
   border-radius: 5%;
   border: none;
 }
+
 .input-right {
   width: 475px;
   height: 50px;
@@ -80,6 +83,7 @@ header {
   border-radius: 5%;
   font-size: 18px;
 }
+
 .right-block-btn {
   width: 100px;
   height: 50px;
@@ -89,10 +93,12 @@ header {
   border-radius: 5%;
   border: none;
 }
+
 .input-btn {
   display: flex;
   flex-direction: row;
 }
+
 li {
   display: flex;
   align-items: center;
